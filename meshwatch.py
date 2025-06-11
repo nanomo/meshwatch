@@ -50,7 +50,7 @@ import meshtastic.tcp_interface
 import time
 from datetime import datetime
 import traceback
-from meshtastic.mesh_pb2 import _HARDWAREMODEL
+from meshtastic.protobuf.mesh_pb2 import _HARDWAREMODEL
 from meshtastic.node import Node
 from pubsub import pub
 import argparse
